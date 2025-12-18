@@ -1,0 +1,17 @@
+POST - /entry 			: Truy cập, xử lý entry
+POST - /exit			: Truy cập, xử lý exit
+GET - /current			: Lấy thông tin hiện tại của bãi
+GET - /stats			: Lấy thông tin số lượng xe đỗ
+GET - /image/entry/<int:record_id> : Lấy ảnh vào bãi
+GET - /image/exit/<int:record_id> : Lấy ảnh ra bãi
+GET - /license/<license_plate>	: Lấy thông tin biển số
+GET - /history			: Lấy toàn bộ lịch sử đỗ xe (có phân trang)  
+
+need to install:
+- flask
+- flasksqlalchemy
+- opencv-python
+- pillow
+- numpy
+- ultralytics
+- transformers
